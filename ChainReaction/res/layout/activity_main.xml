@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/back4"
+    android:orientation="vertical" >
+	<ImageView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:src="@drawable/w1"/>
+	<ImageView 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/horizontal_line"
+	    android:layout_marginBottom="20dp"/>
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="fill_parent">
+	    <LinearLayout
+		    android:id="@+id/buttonsLayout"
+		    android:layout_width="200dp"
+		    android:layout_height="fill_parent"
+		    android:layout_gravity="center"
+		    android:gravity="center"
+		    android:layout_centerVertical="true"
+		    android:layout_centerHorizontal="true"
+		    android:orientation="vertical">
+		    <Button 
+		        android:id="@+id/buttonNew"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/newGame"
+		        android:background="@drawable/button_main_upper"
+		        style="@style/ButtonText"
+		        android:onClick="newGame"/>
+		    <Button
+		        android:id="@+id/buttonRetry"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/retry"
+		        android:background="@drawable/button_main_center"
+		        style="@style/ButtonText"
+		        android:onClick="resumeGame"/>
+		    <Button
+		        android:id="@+id/buttonStats"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/button_main_bottom"
+		        style="@style/ButtonText"
+		        android:text="@string/stats"
+		        android:onClick="showRank"/>
+		</LinearLayout>
+
+		<Button
+		    android:id="@+id/fbButton"
+		    android:layout_width="40dp"
+		    android:layout_height="40dp"
+		    android:layout_margin="15dp"
+		    android:layout_alignParentBottom="true"
+		    android:layout_alignParentLeft="true"
+		    android:background="@drawable/facebook"
+		    android:onClick="fbInvite" />
+		    
+    </RelativeLayout>
+	
+</LinearLayout>

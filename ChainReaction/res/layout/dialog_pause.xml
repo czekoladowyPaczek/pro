@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center" >
+    <LinearLayout 
+        android:id="@+id/pause_game"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button 
+            android:id="@+id/button_resume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blue_button"
+            android:drawableLeft="@drawable/check"
+           	style="@style/ButtonText"
+ 			android:text="@string/resume"/>
+        <Button 
+            android:id="@+id/button_reastart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blue_button"
+            android:drawableLeft="@drawable/retry"
+           	style="@style/ButtonText"
+ 			android:text="@string/restart"/>
+        <Button 
+            android:id="@+id/button_exit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blue_button"
+            android:drawableLeft="@drawable/close"
+           	style="@style/ButtonText"
+ 			android:text="@string/exit"/>
+    </LinearLayout>
+
+</FrameLayout>

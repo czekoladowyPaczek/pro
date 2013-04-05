@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="newGame">New Game</string>
+	<string name="retry">Continue</string>
+	<string name="stats">Highscores</string>
+	
+	<string name="exit">Exit</string>
+	<string name="resume">Resume</string>
+	<string name="restart">Restart</string>
+	<string name="dialog_pause">Paused</string>
+	<string name="cancel">Cancel</string>
+	
+	<string name="fb_invite_success">Invited</string>
+	<string name="fb_invite_message">Join us!</string>
+	
+	<string name="noInternetTitle">Need internet connection</string>
+	<string name="noInternetMessage">Turn it on?</string>
+</resources>

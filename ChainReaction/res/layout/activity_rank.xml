@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/back4"
+    android:orientation="vertical" >
+    <ImageView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:src="@drawable/w1"/>
+    <ImageView 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/horizontal_line"
+	    android:layout_marginBottom="20dp"/>
+    <ListView
+        android:id="@+id/rankList"
+        android:layout_width="200dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"/>
+
+</LinearLayout>

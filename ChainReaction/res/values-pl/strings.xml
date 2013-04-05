@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="newGame">Nowa gra</string>
+	<string name="retry">Kontynuuj</string>
+	<string name="stats">Ranking</string>
+	
+	<string name="exit">Wyjdź</string>
+	<string name="resume">Wznów</string>
+	<string name="restart">Restart</string>
+	<string name="dialog_pause">Paused</string>
+	<string name="cancel">Anuluj</string>
+	
+	<string name="fb_invite_success">Zaproszono</string>
+	<string name="fb_invite_message">Dołącz do nas!</string>
+	
+	<string name="noInternetTitle">Potrzebne połączenie z internetem</string>
+	<string name="noInternetMessage">Włączyć?</string>
+</resources>
